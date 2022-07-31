@@ -1,0 +1,81 @@
+*{
+
+
+    margin: 0;
+    padding: 0; 
+    background-color:darkgray;
+    
+}
+
+.container{
+   flex-wrap: wrap;
+  min-width: 300px;
+  margin-bottom: 0px;
+  
+}
+
+.image-3{
+  width: 10%;
+  
+ }
+
+ .image{
+  width: 3%  ;
+ }
+ .final{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+.link{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  width: 8%;
+}
+.text { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.image {
+    width: 2%;
+    
+}
+
+.text-1 {
+    text-align: center;
+}
+.title {
+    width: 5%;
+display: flex;
+justify-content: center;
+
+}
+.image-2{
+width: 15%;
+}
+
+.navegacion {
+  width: 1000px;
+  margin: 30px auto;
+  background-color: white;
+
+}
+.menu {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+text-decoration: none;
+}
+.navegacion { 
+list-style: none;
+
+  display: inline-block;
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.navegacion a:hover{
+color: #ce7d35;
+transition: all .3s;
+}
